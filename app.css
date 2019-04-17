@@ -2,50 +2,46 @@
     font-family: soloist;
     src: url(./SoloistAcademy.woff)
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background: url(./tatooine.jpg);
     background-repeat: no-repeat;
-    box-sizing: border-box;
     height: 100vh;
-    margin: 0;
-    padding: 0;
     width: 100vw;
 }
 
 h1{
     font-family: soloist;
-    text-align: center;
-}
+    text-align: center;}
+
 p{
     color: #b42527;
-   
-}
+    text-align: center;}
 
 #planeta{
     color: #d7d892;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-    
-    
-}
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
 #aparecem{
     align-content: center;
     display: flex;
-    flex: wrap;
-}
-
+    flex: wrap;}
 
 .infobox{
     background: #0c1c35;
     border: solid 3px #d6bf7c;
     border-radius: 6%;
-    height: 65vh;
+    height: 50vh;
     display: block;
     margin:auto;
-    margin-top:10vh; 
+    margin-top:15vh; 
     text-align: center;
-    width: 60vw;
-}
+    width: 40vw;}
+
 ul{
     color: #d7d892;
     list-style: none;
@@ -60,10 +56,16 @@ button{
     font-size:80;
     height: 10vh;
     margin: 20px auto;
-    width: 20vw;
-}
+    width: 20vw;}
+
 h4{
     color: #d7d892;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;}
+
+    @media screen and (max-width: 400px) {
+        .infobox {
+          width: 80vw;
+        }
+      }
 
