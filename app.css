@@ -1,0 +1,66 @@
+@font-face{
+    font-family: soloist;
+    src: url(./SoloistAcademy.woff)
+}
+body{
+    background: url(./tatooine.jpg);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: soloist;
+    text-align: center;
+}
+p{
+    color: #b42527;
+   
+}
+
+#planeta{
+    color: #d7d892;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+    
+}
+#aparecem{
+    align-content: center;
+    display: flex;
+    flex: wrap;
+}
+
+
+.infobox{
+    background: #0c1c35;
+    border: solid 3px #d6bf7c;
+    border-radius: 6%;
+    height: 70vh;
+    display: block;
+    margin:auto;
+    margin-top:10vh; 
+    text-align: center;
+    width: 60vw;
+}
+ul{
+    color: #d7d892;
+    list-style: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: auto;
+    text-align: center;}
+
+button{
+    background: #b42527;
+    display: block;
+    font-family:soloist;
+    font-size:80;
+    height: 10vh;
+    margin: 20px auto;
+    width: 20vw;
+}
+h4{
+    color: #d7d892;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;}
+
