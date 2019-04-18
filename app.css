@@ -3,7 +3,8 @@
     src: url(./SoloistAcademy.woff)
 }
 
-*{  background: url(./tatooine.jpg);
+body{
+    background: url(./tatooine.jpg);
     background-repeat: no-repeat;
     box-sizing: border-box;
     height: 100vh;
