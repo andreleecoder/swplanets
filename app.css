@@ -2,14 +2,14 @@
     font-family: soloist;
     src: url(./SoloistAcademy.woff)
 }
+*{box-sizing: border-box;
+  margin: 0;
+  padding: 0;}
 
 body{
     background: url(./tatooine.jpg);
     background-repeat: no-repeat;
-    box-sizing: border-box;
     height: 100vh;
-    margin: 0;
-    padding: 0;
     width: 100vw;}
 
 h1{
@@ -45,11 +45,6 @@ button{
     color: #d7d892;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
-
-#aparecem{
-align-content: center;
-display: flex;
-flex: wrap;}
 
 
 .infobox{
