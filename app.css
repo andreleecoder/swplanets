@@ -2,16 +2,15 @@
     font-family: soloist;
     src: url(./SoloistAcademy.woff)
 }
-*{
+*{  background: url(./tatooine.jpg);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    height: 100vh;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-body{
-    background: url(./tatooine.jpg);
-    background-repeat: no-repeat;
-    height: 100vh;
     width: 100vw;
+
+   
 }
 
 h1{
@@ -21,10 +20,30 @@ h1{
 p{
     color: #b42527;
     text-align: center;}
+ul{
+    color: #d7d892;
+    list-style: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: auto;
+    text-align: center;}
 
 #planeta{
     color: #d7d892;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+    
+h4{
+    color: #d7d892;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;}
+
+button{
+    background: #b42527;
+    display: block;
+    font-family:soloist;
+    font-size:80;
+    height: 10vh;
+    margin: 20px auto;
+    width: 20vw;}
 
 #aparecem{
     align-content: center;
@@ -42,30 +61,10 @@ p{
     text-align: center;
     width: 40vw;}
 
-ul{
-    color: #d7d892;
-    list-style: none;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: auto;
-    text-align: center;}
-
-button{
-    background: #b42527;
-    display: block;
-    font-family:soloist;
-    font-size:80;
-    height: 10vh;
-    margin: 20px auto;
-    width: 20vw;}
-
-h4{
-    color: #d7d892;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;}
 
     @media screen and (max-width: 400px) {
         .infobox {
-          width: 80vw;
-        }
-      }
+            width: 80vw;} }
+
+
 

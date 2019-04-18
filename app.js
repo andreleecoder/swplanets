@@ -24,7 +24,7 @@ function updateInfo(data){
     popu.innerText=data.population
     clima.innerText=data.climate
     solo.innerText=data.terrain
-    aparecem.innerText=data.films
+    aparecem.innerText=data.films.length
 }
 
 //in case of erro
