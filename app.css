@@ -61,8 +61,12 @@ button{
 
 
     @media screen and (max-width: 750px){
+        button{
+            width: 60vw;}
         .infobox {
-            width: 80vw;} }
+            width: 80vw;} 
+        }
+
 
 
 
