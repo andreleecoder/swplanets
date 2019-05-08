@@ -4,7 +4,6 @@ let planeta=document.querySelector('#planeta')
 let popu=document.querySelector('#popu')
 let clima=document.querySelector('#clima')
 let solo=document.querySelector('#solo')
-let aparecem=document.querySelector('#aparecem')
 
 //fetch data of API
 function getInfo(){
@@ -24,7 +23,6 @@ function updateInfo(data){
     popu.innerText=data.population
     clima.innerText=data.climate
     solo.innerText=data.terrain
-    aparecem.innerText=data.films.length
 }
 
 //in case of erro
@@ -33,7 +31,6 @@ function updateInfoErro(){
     popu.innerText=''
     clima.innerText=''
     solo.innerText=''
-    aparecem.innerText=''
 
 
 }
