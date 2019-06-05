@@ -1,7 +1,4 @@
-@font-face{
-    font-family: soloist;
-    src: url(./SoloistAcademy.woff)
-}
+
 *{box-sizing: border-box;
   margin: 0;
   padding: 0;}
@@ -14,7 +11,9 @@ body{
     width: 100vw;}
 
 h1{
-    font-family: soloist;
+    color: #d7d892;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
     text-align: center;}
 
 p{
@@ -35,8 +34,9 @@ h4{
     
 button{
     background: #b42527;
+    color:#d7d892;
     display: block;
-    font-family:soloist;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size:80;
     height: 10vh;
     margin: 20px auto;
