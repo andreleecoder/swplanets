@@ -35,7 +35,7 @@ function updateInfoErro(){
 }
 //loading page
 function updateWithLoading(){
-    planeta.innerHTML='<i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw"></i>'
+    planeta.innerHTML='<span class="sr-only">Loading...</span>'
     popu.innerText=''
     clima.innerText=''
     solo.innerText=''
